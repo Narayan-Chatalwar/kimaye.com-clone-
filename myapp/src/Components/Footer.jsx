@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Footer.module.css"
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
@@ -49,16 +49,34 @@ const Footer = () => {
       />
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <p className={styles.footercopyright}>
-          Copyright©2020. All Rights Reserved{" "}
+          Copyright©2022. All Rights Reserved{" "}
         </p>
-        <div style={{
-          display: "flex", justifyContent:"center",alignItems:"center"  }} >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
           <img
             src="https://cdn.shopify.com/s/files/1/0449/5225/6667/files/ting.png?v=1599565040"
-            alt="madeby" width={"100px"}
+            alt="madeby"
+            width={"100px"}
           />
         </div>
       </div>
+      <p style={{ display: "flex", justifyContent: "center" }}>
+        Made with &hearts; by{" "}
+        <a
+          href="https://linkedin.com/in/narayan-chatalwar-09905121a"
+          target={"_blank"}
+          style={{ color: "black", textDecoration: "none" }}
+        >
+         &nbsp;
+          Narayan chatalwar
+        </a>
+      </p>
     </div>
   );
 };

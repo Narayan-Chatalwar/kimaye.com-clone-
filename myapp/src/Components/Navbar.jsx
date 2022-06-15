@@ -30,7 +30,6 @@ const Navbar = () => {
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <Link to="/">GROW </Link>
-            
           </div>
         </div>
         <div>
@@ -42,7 +41,11 @@ const Navbar = () => {
           />
         </div>
         <div style={{ display: "flex", gap: "20px" }}>
-          <span class="material-symbols-outlined">share_location</span>
+          {/* <span class="material-symbols-outlined">share_location</span> */}
+          <img
+            src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_map_location_logo_icon_159350.png"
+            alt="location" width={"25px"}
+          />
           <span>Mumbai</span>
           <span class="material-symbols-outlined">search</span>
           <span class="material-symbols-outlined">person</span>
